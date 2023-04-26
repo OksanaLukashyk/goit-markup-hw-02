@@ -70,7 +70,7 @@ h3 {
   color: var(--primary-dark-color);
 }
 
-.logo.footer {
+.logo .footer {
   color: var(--light-mode-color);
 }
 
@@ -154,6 +154,7 @@ h3 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Section */
