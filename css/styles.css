@@ -57,8 +57,8 @@ h3 {
 
 /* Logo */
 .logo {
-  color: var(--primary-dark-color);
-  font-family: 'Raleway';
+  color: var(--light-accent-color);
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -67,7 +67,7 @@ h3 {
 }
 
 .logo .accent {
-  color: var(--light-accent-color);
+  color: var(--primary-dark-color);
 }
 
 .logo.footer {
@@ -86,15 +86,16 @@ h3 {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+/* .site-nav .link.current {
   color: var(--accent-color);
-}
+} */
 
 /* Header contacts*/
-
+.contacts {
+  font-style: normal;
+}
 .contacts .link {
   color: var(--primary-text-color);
-  font-style: normal;
 }
 
 .contacts .link:hover,
@@ -114,7 +115,7 @@ h3 {
 .button {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -163,6 +164,7 @@ h3 {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .subsection-title {
@@ -170,15 +172,22 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-
+.section.team {
+  background-color: var(--light-mode-color);
+}
 .team .subsection-title {
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .team .description {
   text-align: center;
 }
+.team-member {
+  background-color: var(--primary-white-color);
+}
 .portfolio .description {
-  color: var(--primary-dark-color);
+  color: var(--primary-text-color);
 }
